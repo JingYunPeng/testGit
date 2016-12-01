@@ -1,6 +1,7 @@
 <project name="hello" basedir="." default="compile">
 	
 	<target name="compile" description="编译生成的java文件">
-		<javac srcdir="." destdir="."></javac>
+		<mkdir dir="bin" />
+		<javac srcdir="." destdir="bin"></javac>
 	</target>
 </project>
